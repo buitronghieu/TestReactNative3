@@ -1,0 +1,35 @@
+{
+  "name": "VityGPS",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~18.0.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1",
+    "react-native-atoz-listview": "0.0.7",
+    "react-native-checkbox": "^1.1.0",
+    "react-native-datetime-picker": "^1.1.2",
+    "react-native-geocoding": "^0.2.0",
+    "react-native-list-view-select": "^1.0.4",
+    "react-native-maps": "^0.16.4",
+    "react-native-rest-client": "^0.1.1",
+    "react-native-search-box": "0.0.11",
+    "react-native-searchbar": "^1.11.0",
+    "react-native-selectme": "^1.2.3",
+    "react-native-side-menu": "^0.20.3",
+    "react-native-ui-xg": "0.0.6",
+    "react-navigation": "^1.0.0-beta.11"
+  }
+}
